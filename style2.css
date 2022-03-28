@@ -1,0 +1,47 @@
+
+
+.background {
+  background-image: url("images/sarazanmai.gif")
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px black;
+  position: absolute; right: 350px; top: 60px;
+}
+
+.div1 {
+  background-color: #D7D6D6;
+  position: absolute; right: 520px; top: 190px;
+  padding: 30px 30px 30px 30px;  
+}
+
+.mastercard {
+   z-index: 10;
+   width: 150px;
+   position: absolute; top: 15px; right: 15px;
+}
+
+.firstName {
+  position: absolute; left: 28px; top: -10px;
+}
+
+.lastName {
+  position: absolute; left: 210px; top: -10px;
+}
+
+.cardNumber {
+  position: absolute; left: 28px; top: 50px;
+}
+
+.expDate {
+  position: absolute; left: 28px; top: 105px;
+}
+
+.cvv {
+  position: absolute; left: 178px; top: 105px;
+}
+
+.zipCode {
+  position: absolute; left: 360px; top: 105px;
+}
